@@ -1,7 +1,7 @@
 class CreateOrders < ActiveRecord::Migration[5.1]
   def change
     create_table :orders do |t|
-      t.boolean :completed
+      t.boolean :completed, :null => false, :default => false
       t.references :user, foreign_key: true
 
       t.timestamps
