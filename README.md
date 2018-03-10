@@ -1,24 +1,16 @@
-# README
+# Лабораторная работа №2 #
+## По дисциплине "Технологии разработки веб приложений", семестр 2 ##
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Цель работы ###
+Познакомиться с настройкой операционной системы Linux для разработки веб-приложений с использованием фреймворка Ruby on Rails. Познакомиться с основами разработки веб-приложений с использованием фреймворка Ruby on Rails.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Задание ###
+1.	Установить операционную систему Ubuntu на виртуальную машину при отсутствии настоящей системы
+1.	Установить Ruby и Rails
+1.	Установить СУБД PostgreSQL
+1.	Создать новое приложение store
+1.	Добавить три модели – Product (колонки name и price), Order и OrderItem (колонки order_id, product_id и quantity)
+1.	Заполнить таблицу products, используя файл seeds.rb
+1.	Подключить Devise и на его основе реализовать управление пользователями
+1.	Реализовать страницу со списком товаров и возможность добавления позиций (модель OrderItem) в заказ (модель Order)
+1.	Реализовать страницу просмотра корзины пользователя
